@@ -54,7 +54,7 @@ class StudentsController extends Controller
 
          $request->validate([
             'nama' => 'required',
-            'nrp' => 'required|size:9',
+            'nrp' => 'required|size:10',
 
 
          ]);
